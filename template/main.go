@@ -13,9 +13,10 @@ func read() string {
 	return sc.Text()
 }
 
+// sc.Split(bufio.ScanWords)
+// sc.Split(bufio.ScanLines)
+
 func main() {
 	var i string
 	fmt.Scan(&i)
-	// sc.Split(bufio.ScanWords)
-	// sc.Split(bufio.ScanLines)
 }
