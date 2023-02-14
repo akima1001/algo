@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"os"
 	"strconv"
+	"strings"
 )
 
 var sc = bufio.NewScanner(os.Stdin)
@@ -12,6 +13,9 @@ var sc = bufio.NewScanner(os.Stdin)
 func read() string {
 	sc.Scan()
 	return sc.Text()
+}
+func printArr(arr []string) {
+	fmt.Println(strings.Join(arr, " "))
 }
 
 func readToInt() int {
